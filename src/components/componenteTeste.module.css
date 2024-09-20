@@ -1,0 +1,80 @@
+.boxPai{
+
+    background-color: var(--paleta2);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxPai .boxBtn{
+
+    overflow: hidden;
+    width: 120px;
+    border: 2px solid var(--paleta3);
+    background-color: var(--paleta1);
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    transition: all 1s;
+    
+  }
+    
+
+  .boxBtn:hover{
+
+    background-color: var(--paleta2);
+    transition: all 1s;
+  }
+    
+   
+
+
+.boxPai .boxBtn p {
+
+  transform: translateX(-120px);
+  transition: all 1s;
+  text-transform: uppercase;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.boxPai .boxBtn:hover p{
+
+    transform: translateX(-65px);
+    transition: all 1s;
+}
+
+.boxPai .boxBtn:hover .img{
+
+  transform: translateX(80px);
+  transition: all 1s;
+  
+}
+
+.boxPai .boxBtn div{
+
+  
+  width: fit-content;
+}
+
+.img{
+
+  width: 30px;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  transition: all 1s;
+  
+
+  
+}
+
+
+
+
